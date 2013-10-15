@@ -1122,3 +1122,9 @@ li.blue-content a {
 .ext-gecko .x-form-text {
 	padding: 2px 0px 0px 0px !important;
 }
+
+/** For Metadata Editor, hide parent **/
+fieldset.metadata-block table tbody tr[id^="gmd:parentIdentifier_"],
+fieldset.metadata-block table tbody tr[id^="child_gmd:parentIdentifier_"] {
+	display: none;
+}
